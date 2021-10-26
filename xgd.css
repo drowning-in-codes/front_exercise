@@ -5,17 +5,14 @@ body {
     background-size: cover;
 }
 
-.form-container {
-    width: 400px;
-    height: 400px;
-    background-color: whitesmoke;
-    margin-top: 150px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    overflow: hidden;
+.login_box {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 13%;
+    text-align: center;
+    background-color: #00000060;
+    padding: 20 px 50px;
 }
 
 .title {
@@ -23,4 +20,40 @@ body {
     font-size: 18px;
     color: lightblue;
     margin-top: 80px;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+.form-group input {
+    width: 180px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 5px 10px;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 190px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    border: 0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
 }
