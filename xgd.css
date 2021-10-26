@@ -1,0 +1,26 @@
+body {
+    /* background-color: #8ea4f8; */
+    background-image: url("./sunset-gc3232204b_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    color: lightblue;
+    margin-top: 80px;
+}
